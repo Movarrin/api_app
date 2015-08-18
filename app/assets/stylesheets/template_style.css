@@ -1,0 +1,322 @@
+body{
+    margin:0 auto;
+
+}
+
+.cover{
+  z-index:-1;
+  position:absolute;
+
+  background-color:white;
+  margin-left:5%;
+
+  width:90%;
+  height:3000px;
+}
+
+.form-holder{
+margin-left:20%;
+margin-top:200px;
+}
+
+.new{
+  margin-left:20%;
+  color:black;
+  margin-top:-250px;
+}
+
+.signup{
+  margin-top:9px;
+}
+
+.signup a{
+
+color:yellow;
+text-decoration:none;
+
+}
+
+.back{
+  margin-left:30%;
+  margin-top:450px;
+}
+
+.actions{
+  width:3000px;
+}
+
+form{
+margin-top:400px;
+
+color:black;
+}
+
+.field{
+  width:3000px;
+}
+
+label{
+  width:600px;
+}
+
+
+
+
+
+.sports-div h4{
+  margin-left:100px;
+}
+
+.topnews-div h4{
+  margin-left:100px;
+}
+
+.twitter-div h4{
+  margin-left:100px;
+}
+
+.sports-div{
+  margin-top:50px;
+  color:white;
+  height:400px;
+  overflow-y:scroll;
+}
+.sports-div li{
+  list-style-type:none;
+}
+
+span{
+  font-size:14px;
+}
+
+img:hover{
+  background-color:none;
+}
+
+.special{
+  margin-left:42%;
+}
+
+.twitter-div{
+  margin-top:50px;
+  height:400px;
+  width:30%;
+  overflow-y:scroll;
+}
+
+.twitter-div li{
+  list-style-type:none;
+}
+
+.container-fluid#topdash{
+  margin-top:-50px;
+  z-index:1;
+}
+
+.form-group{
+  margin-left:20px;
+
+  display:inline-block;
+}
+
+.container-fluid#first{
+  z-index:1;
+  color:white;
+  width:100%;
+  font-weight:bold;
+  background-color:black;
+  /*background:url('http://www.webextensionline.com/wp-content/uploads/red-gradient-texture.jpg');*/
+    margin:0;
+  height:100px;
+
+}
+
+
+.topnews-div{
+  margin-top:30px;
+  height:400px;
+  color:white;
+  overflow-y:scroll;
+}
+
+.topnews-div li{
+  list-style-type:none;
+}
+
+.container-fluid#second{
+  z-index:1;
+  margin-top:400px;
+  height:1600px;
+  width:80%;
+  padding:10px;
+  background-color:black;
+}
+
+/*.container-fluid#second .row{
+  width:100%;
+    margin-left:2%;
+
+}
+
+.container-fluid#second .row div{
+  display:inline-block;
+  margin:1%;
+  width:30%;
+  height:20%;
+  overflow-y:hidden;
+
+}*/
+
+h1{
+  margin-top:20px;
+  color:white;
+  font-size:2em;
+
+
+}
+
+.nydata-div {
+  position:absolute;
+  font-size:12px;
+  width:40%;
+  height:70%;
+  overflow-y:scroll;
+  margin-left:30%;
+  margin-top:10px;
+  border-top:solid white 1px;
+  border-bottom:solid white 1px;
+  padding:5px;
+  display:hidden;
+}
+.nydata{
+  list-style-type:none;
+
+}
+
+.nydata a{
+  color:yellow;
+  text-decoration:none;
+}
+
+.nydata a:hover{
+  color:yellow;
+  text-decoration:none;
+}
+
+.down-arrow{
+
+    margin-top:55px;
+  width:180px;
+  height:100px;
+
+}
+
+.weather-div{
+  display:hidden;
+  width:25%;
+  margin-top:30px;
+  padding:15px;
+}
+.up-arrow{
+  display:none;
+    margin-top:260px;
+    position:absolute;
+  width:180px;
+  height:100px;
+
+}
+
+h2{
+ color:white;
+ width:250px;
+ border-radius:10px;
+ background-color:dimgrey;
+ padding:3px;
+
+}
+
+form{
+  height:200px;
+
+  margin-top:-60px;
+}
+
+form input{
+  width:5%;
+
+}
+
+.row{
+    margin-left:11%;
+  width:100%;
+
+}
+
+.row div img{
+    margin-top:30px;
+  width:100%;
+}
+
+.jumbotron{
+  margin-top:10px;
+  border-radius:15px;
+  margin-left:10%;
+  width:80%;
+
+  background-color:white;
+}
+
+.jumbotron img{
+  /*margin-left:15%;*/
+  width:100%;
+}
+
+ .row div{
+   background-color:#3E4139;
+   width:20%;
+   margin:3%;
+   color:white;
+   margin-top:2%;
+   height:8em;
+   display:inline-block;
+   box-shadow:4px 6px 10px dimgrey;
+   }
+
+ .row div h3{
+  font-style:bold;
+  color:dimgrey;
+  font-size:16px;
+  position:absolute;
+ }
+
+ /*.row div img{
+  border:solid white 2px;
+  overflow:hidden;
+  width:80%;
+  height:100%;
+  margin:5px;
+ }*/
+
+
+@media screen and (max-width: 900px) {
+    .container-fluid#first {
+        height:150px;
+    }
+
+    .special{
+      margin-left:30%;
+    }
+
+
+    .weather-header{
+      font-size:10px;
+    }
+
+    .row{
+      margin-left:9%;
+    }
+
+    .row div{
+      height:9%;
+    }
+}

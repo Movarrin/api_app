@@ -1,0 +1,8 @@
+<div ng-controller="NyCtrl" class="nydata-div" class="col-md-6">
+      <h4 style="margin-left:30px;font-weight:bold;">Articles from The New York Times</h4>
+    <ul ng-repeat="section in sections" class="nydata">
+      <a href="{{section.url}}"><li>{{section.title}}</li></a>
+      <li>--{{section.abstract}}</li>
+      <li>Published on {{section.published_date}}</li>
+    </ul>
+  </div>

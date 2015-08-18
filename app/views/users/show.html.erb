@@ -1,0 +1,42 @@
+
+
+<div class="special" class="row" style="box-shadow:none;background-color:none;">
+
+<img class="down-arrow" class="img-responsive" src="http://www.clker.com/cliparts/C/C/t/u/L/0/arrow-down-gray-hi.png"/>
+
+<img class="up-arrow" class="img-responsive" src="http://www.successacademies.org/site/themes/success-academy/assets/img/arrow--up--gray.png"/>
+</div>
+<!-- </div> -->
+
+<div class="container-fluid" id="second">
+<h2>My News Feed</h2>
+
+<% if @user.nytimes == true %>
+<%= render :partial => 'nytimes'%>
+<% end %>
+
+<% if @user.weather == true %>
+<%= render :partial => 'weather'%>
+<% end %>
+
+<% if @user.soccer == true %>
+<%= render :partial => 'soccer'%>
+<% end %>
+
+<% if @user.topnews == true %>
+<%= render :partial => 'vice'%>
+<% end %>
+
+<% if @user.wired == true %>
+<%= render :partial => 'twitter'%>
+<% end %>
+
+</div>
+
+
+
+
+
+
+
+

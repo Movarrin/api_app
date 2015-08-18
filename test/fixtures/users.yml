@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  password_digest: MyString
+  nytimes: false
+  npr: false
+  weather: false
+  sports: false
+  twitter: false
+
+two:
+  username: MyString
+  password_digest: MyString
+  nytimes: false
+  npr: false
+  weather: false
+  sports: false
+  twitter: false
